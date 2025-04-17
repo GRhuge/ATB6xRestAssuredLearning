@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sample Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.187">
+    <properties></properties>
+
+
+
+            <testcase
+                name="sanityRun"
+                time="0.187"
+                classname="ex_25Jun2024.Lab221">
+            </testcase>
+</testsuite>

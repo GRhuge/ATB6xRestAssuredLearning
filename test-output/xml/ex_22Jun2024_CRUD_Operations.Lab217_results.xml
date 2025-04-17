@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="1.653">
+    <properties></properties>
+
+            <testcase
+                name="getBookingId"
+                time="1.653"
+                classname="ex_22Jun2024_CRUD_Operations.Lab217">
+
+            <failure type="java.lang.ClassCastException" message="class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader &apos;bootstrap&apos;)">
+                <![CDATA[java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+                ex_22Jun2024_CRUD_Operations.Lab217.getBookingId(Lab217.java:79)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)org.testng.TestRunner.beforeRun(TestRunner.java:644)org.testng.TestRunner.run(TestRunner.java:610)org.testng.SuiteRunner.runTest(SuiteRunner.java:421)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)org.testng.SuiteRunner.run(SuiteRunner.java:312)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)org.testng.TestNG.runSuitesLocally(TestNG.java:1208)org.testng.TestNG.runSuites(TestNG.java:1112)org.testng.TestNG.run(TestNG.java:1079)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="testPutRequestPositive"
+                time="0.0"
+                classname="ex_22Jun2024_CRUD_Operations.Lab217">
+            </testcase>
+
+</testsuite>

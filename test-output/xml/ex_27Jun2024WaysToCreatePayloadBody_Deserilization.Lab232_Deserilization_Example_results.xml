@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.299">
+    <properties></properties>
+
+
+
+            <testcase
+                name="DeSerilization"
+                time="0.299"
+                classname="ex_27Jun2024WaysToCreatePayloadBody_Deserilization.Lab232_Deserilization_Example">
+            </testcase>
+</testsuite>

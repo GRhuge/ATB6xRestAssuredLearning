@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+    <test name="Sample Test">
+		
+		<groups>
+		<run>
+		<include name="sanity"></include>
+		</run>
+	</groups>
+	
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="ex_25Jun2024.Lab221"/>
+        </classes>
+    </test>
+</suite>

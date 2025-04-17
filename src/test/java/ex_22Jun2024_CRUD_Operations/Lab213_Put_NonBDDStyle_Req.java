@@ -16,14 +16,15 @@ public class Lab213_Put_NonBDDStyle_Req {
 	Response res;
 	ValidatableResponse vr;
 	
-	String token = "af928576706eb9e";
-	String bookingId = "2987";
+	
+	String token = "d17e887569a3470";
+	String bookingId = "225";
 	
 	String BASE_URL = "https://restful-booker.herokuapp.com";
 	String BASE_PATH = "/booking";
 	
 	@Test
-	void testPutRequestNonBDD() {
+	public void testPutRequestNonBDD() {
 		String BASE_PATH_UPDATED = BASE_PATH+"/"+bookingId;
 		System.out.println(BASE_PATH_UPDATED);
 		
@@ -40,12 +41,12 @@ public class Lab213_Put_NonBDDStyle_Req {
 				+ "}";
 		
 		r.baseUri(BASE_URL);
-		r.basePath("BASE_PATH_UPDATED");
-		r.contentType(ContentType.JSON);
+		r.basePath(BASE_PATH_UPDATED);
+     	r.contentType(ContentType.JSON);
 		r.cookie("token",token);
 		r.body(payload).log().all();
 		
-		res = r.when().put();
+		res = r.when().log().all().put();
 		
 		vr = res.then().log().all();
 		vr.statusCode(200);

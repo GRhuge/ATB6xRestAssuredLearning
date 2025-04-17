@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.022">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testPatchRequestNonBDD"
+                time="11.022"
+                classname="ex_22Jun2024_CRUD_Operations.Lab214_Patch_NonBDDStyle_Req">
+            </testcase>
+</testsuite>

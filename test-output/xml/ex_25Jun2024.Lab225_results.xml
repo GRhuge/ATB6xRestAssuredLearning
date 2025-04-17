@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.260">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testAuthToGetToken"
+                time="0.031"
+                classname="ex_25Jun2024.Lab225">
+            </testcase>
+            <testcase
+                name="testAuthToGetToken"
+                time="0.009"
+                classname="ex_25Jun2024.Lab225">
+            </testcase>
+            <testcase
+                name="testAuthToGetToken"
+                time="0.220"
+                classname="ex_25Jun2024.Lab225">
+            </testcase>
+</testsuite>

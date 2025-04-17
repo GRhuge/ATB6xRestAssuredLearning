@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.123">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test2"
+                time="0.008"
+                classname="ex_25Jun2024_Listeners.Lab228">
+            </testcase>
+            <testcase
+                name="test1"
+                time="0.115"
+                classname="ex_25Jun2024_Listeners.Lab228">
+            </testcase>
+</testsuite>

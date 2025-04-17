@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.186">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getToken"
+                time="0.007"
+                classname="ex_25Jun2024.Lab223">
+            </testcase>
+            <testcase
+                name="getBookingId"
+                time="0.150"
+                classname="ex_25Jun2024.Lab223">
+            </testcase>
+            <testcase
+                name="getPUTMethod"
+                time="0.007"
+                classname="ex_25Jun2024.Lab223">
+            </testcase>
+            <testcase
+                name="testDeleteRequest"
+                time="0.022"
+                classname="ex_25Jun2024.Lab223">
+            </testcase>
+</testsuite>

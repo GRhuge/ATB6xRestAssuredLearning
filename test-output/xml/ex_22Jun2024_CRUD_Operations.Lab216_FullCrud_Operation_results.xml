@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.024">
+    <properties></properties>
+
+
+
+            <testcase
+                name="t3"
+                time="3.024"
+                classname="ex_22Jun2024_CRUD_Operations.Lab216_FullCrud_Operation">
+            </testcase>
+</testsuite>

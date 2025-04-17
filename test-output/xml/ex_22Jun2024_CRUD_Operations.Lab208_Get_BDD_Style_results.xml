@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testtts"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.018">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequestBDDStyle"
+                time="1.018"
+                classname="ex_22Jun2024_CRUD_Operations.Lab208_Get_BDD_Style">
+            </testcase>
+</testsuite>

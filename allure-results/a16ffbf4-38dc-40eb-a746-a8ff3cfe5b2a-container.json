@@ -1,0 +1,1 @@
+{"uuid":"a16ffbf4-38dc-40eb-a746-a8ff3cfe5b2a","name":"Suite","children":["000e408c-bd0b-4650-803a-5ee090cc469e"],"befores":[],"afters":[{"name":"emailToQALead","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1727272788577,"stop":1727272788583}],"start":1727272788113,"stop":1727272788590}

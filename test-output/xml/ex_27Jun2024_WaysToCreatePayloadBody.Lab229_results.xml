@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.738">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testPOSTReq"
+                time="15.738"
+                classname="ex_27Jun2024_WaysToCreatePayloadBody.Lab229">
+            </testcase>
+</testsuite>

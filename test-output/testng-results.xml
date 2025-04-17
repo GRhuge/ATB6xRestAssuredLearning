@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-09T17:03:21 IST" name="Default suite" finished-at="2024-10-09T17:03:32 IST" duration-ms="11700">
+    <groups>
+    </groups>
+    <test started-at="2024-10-09T17:03:21 IST" name="Default test" finished-at="2024-10-09T17:03:32 IST" duration-ms="11700">
+      <class name="ex_27Jun2024_PayLoad_File.Lab234">
+        <test-method signature="testNonBDDStylePOSTNegative()[pri:0, instance:ex_27Jun2024_PayLoad_File.Lab234@304a9d7b]" started-at="2024-10-09T17:03:21 IST" name="testNonBDDStylePOSTNegative" finished-at="2024-10-09T17:03:30 IST" duration-ms="9241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonBDDStylePOSTNegative -->
+        <test-method signature="testNonBDDStylePOSTPositive()[pri:0, instance:ex_27Jun2024_PayLoad_File.Lab234@304a9d7b]" started-at="2024-10-09T17:03:30 IST" name="testNonBDDStylePOSTPositive" finished-at="2024-10-09T17:03:32 IST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonBDDStylePOSTPositive -->
+      </class> <!-- ex_27Jun2024_PayLoad_File.Lab234 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

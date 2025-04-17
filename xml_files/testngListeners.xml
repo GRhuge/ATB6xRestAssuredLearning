@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ex_25Jun2024_Listeners.CustomListeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Testing">
+    <classes>
+      <class name="ex_25Jun2024_Listeners.Lab228"/>
+    </classes>
+  </test> <!-- Testing -->
+</suite> <!-- Suite -->

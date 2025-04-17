@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.188">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequest"
+                time="5.527"
+                classname="TestNGg.Lab205">
+            </testcase>
+            <testcase
+                name="getRequest2"
+                time="1.661"
+                classname="TestNGg.Lab205">
+            </testcase>
+</testsuite>
