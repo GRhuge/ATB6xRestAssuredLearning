@@ -1,4 +1,4 @@
-package TestNGg_20Jun2024;
+package TestNG_20Jun2024;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
