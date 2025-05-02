@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Testtts"
+<testsuite name="Default test"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="1.692">
+           time="8.263">
     <properties></properties>
 
 
 
             <testcase
                 name="getRequestNegative"
-                time="1.692"
+                time="8.263"
                 classname="ex_22Jun2024_CRUD_Operations.Lab210_Get_NonBDDStyle">
             </testcase>
 </testsuite>

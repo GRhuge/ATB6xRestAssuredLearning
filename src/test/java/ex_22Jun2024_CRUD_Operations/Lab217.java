@@ -124,8 +124,8 @@ public class Lab217 {
 		 validatableResponse.body("firstname",Matchers.equalTo("Ram"));
 		
 		//2.TestNG Asserts -
-		// String firstName = response.then().log().all().extract().path("firstname");
-		// Assert.assertEquals(firstName, "Ram");
+		 String firstcName = response.then().log().all().extract().path("firstname");
+		 Assert.assertEquals(firstName, "Ram");
 		
 		//3. TestNG Assertion with JSON Path library
 		 JsonPath jp = new JsonPath(fullResponseJSONString);

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JsonSchemaValidation.Lab233_JsonSchema_Example">
+      <class name="ex_22Jun2024_CRUD_Operations.Lab217">
         <methods>
-          <include name="JSValidation"/>
+          <include name="getAToken"/>
+          <include name="testPutRequestPositive"/>
+          <include name="getBookingId"/>
         </methods>
-      </class> <!-- JsonSchemaValidation.Lab233_JsonSchema_Example -->
+      </class> <!-- ex_22Jun2024_CRUD_Operations.Lab217 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

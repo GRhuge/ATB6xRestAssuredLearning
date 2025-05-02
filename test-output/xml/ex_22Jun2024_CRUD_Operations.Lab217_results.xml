@@ -4,12 +4,12 @@
            failures="1"
            errors="0"
            skipped="1"
-           time="1.653">
+           time="1.439">
     <properties></properties>
 
             <testcase
                 name="getBookingId"
-                time="1.653"
+                time="1.439"
                 classname="ex_22Jun2024_CRUD_Operations.Lab217">
 
             <failure type="java.lang.ClassCastException" message="class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader &apos;bootstrap&apos;)">
