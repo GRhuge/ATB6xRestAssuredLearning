@@ -1,89 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-02T00:27:36 IST" name="Default suite" finished-at="2025-05-02T00:27:43 IST" duration-ms="6854">
+  <suite started-at="2025-05-02T23:54:33 IST" name="Suite" finished-at="2025-05-02T23:54:34 IST" duration-ms="393">
     <groups>
+      <group name="sanity">
+        <method signature="Lab228.test1()[pri:0, instance:ex_25Jun2024_Listeners.Lab228@1b8a29df]" name="test1" class="ex_25Jun2024_Listeners.Lab228"/>
+        <method signature="Lab228.test2()[pri:0, instance:ex_25Jun2024_Listeners.Lab228@1b8a29df]" name="test2" class="ex_25Jun2024_Listeners.Lab228"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-05-02T00:27:36 IST" name="Default test" finished-at="2025-05-02T00:27:43 IST" duration-ms="6854">
-      <class name="ex_22Jun2024_CRUD_Operations.Lab217">
-        <test-method is-config="true" signature="getAToken()[pri:0, instance:ex_22Jun2024_CRUD_Operations.Lab217@cd7f1ae]" started-at="2025-05-02T00:27:36 IST" name="getAToken" finished-at="2025-05-02T00:27:41 IST" duration-ms="5074" status="PASS">
+    <test started-at="2025-05-02T23:54:33 IST" name="Testing" finished-at="2025-05-02T23:54:34 IST" duration-ms="393">
+      <class name="ex_25Jun2024_Listeners.Lab228">
+        <test-method signature="test1()[pri:0, instance:ex_25Jun2024_Listeners.Lab228@1b8a29df]" started-at="2025-05-02T23:54:33 IST" name="test1" finished-at="2025-05-02T23:54:33 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAToken -->
-        <test-method is-config="true" signature="getBookingId()[pri:0, instance:ex_22Jun2024_CRUD_Operations.Lab217@cd7f1ae]" started-at="2025-05-02T00:27:41 IST" name="getBookingId" finished-at="2025-05-02T00:27:43 IST" duration-ms="1439" status="FAIL">
-          <exception class="java.lang.ClassCastException">
-            <message>
-              <![CDATA[class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
-at ex_22Jun2024_CRUD_Operations.Lab217.getBookingId(Lab217.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-at org.testng.TestRunner.run(TestRunner.java:610)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ClassCastException -->
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:ex_25Jun2024_Listeners.Lab228@1b8a29df]" started-at="2025-05-02T23:54:34 IST" name="test2" finished-at="2025-05-02T23:54:34 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBookingId -->
-        <test-method signature="testPutRequestPositive()[pri:0, instance:ex_22Jun2024_CRUD_Operations.Lab217@cd7f1ae]" started-at="2025-05-02T00:27:43 IST" name="testPutRequestPositive" finished-at="2025-05-02T00:27:43 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.ClassCastException">
-            <message>
-              <![CDATA[class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
-at ex_22Jun2024_CRUD_Operations.Lab217.getBookingId(Lab217.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-at org.testng.TestRunner.run(TestRunner.java:610)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ClassCastException -->
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="emailToQALead()[pri:0, instance:ex_25Jun2024_Listeners.Lab228@1b8a29df]" started-at="2025-05-02T23:54:34 IST" name="emailToQALead" finished-at="2025-05-02T23:54:34 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPutRequestPositive -->
-      </class> <!-- ex_22Jun2024_CRUD_Operations.Lab217 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- emailToQALead -->
+      </class> <!-- ex_25Jun2024_Listeners.Lab228 -->
+    </test> <!-- Testing -->
+  </suite> <!-- Suite -->
 </testng-results>
