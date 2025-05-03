@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="15.738">
+           time="9.546">
     <properties></properties>
 
 
 
             <testcase
                 name="testPOSTReq"
-                time="15.738"
+                time="9.546"
                 classname="ex_27Jun2024_WaysToCreatePayloadBody.Lab229">
             </testcase>
 </testsuite>

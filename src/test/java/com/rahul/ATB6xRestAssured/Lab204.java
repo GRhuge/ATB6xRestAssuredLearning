@@ -11,7 +11,9 @@ public class Lab204 {
 		   .basePath("/ping")
 		 
 		 .when() 
-		   .get().then().statusCode(201);
+		   .get()
+		   
+		 .then().statusCode(201);
 	}
 
 }
