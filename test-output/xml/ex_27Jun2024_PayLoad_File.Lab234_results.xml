@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="11.082">
+           time="6.548">
     <properties></properties>
 
 
 
             <testcase
                 name="testNonBDDStylePOSTPositive"
-                time="1.841"
+                time="1.798"
                 classname="ex_27Jun2024_PayLoad_File.Lab234">
             </testcase>
             <testcase
                 name="testNonBDDStylePOSTNegative"
-                time="9.241"
+                time="4.750"
                 classname="ex_27Jun2024_PayLoad_File.Lab234">
             </testcase>
 </testsuite>
